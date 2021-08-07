@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height:450vh;
+    background-color: white;
+}
+
+#container{
+    background: url(resim/razer-blade-17-homepage-desktop1x.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#container header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+#container header img{
+    position: absolute;
+    margin: 7px 80px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#container header ul{
+    float: right;
+    margin-right: 280px;
+}
+
+#container header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#container header ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+#container header ul li a:hover{
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.social-bar{
+    position: absolute;
+    top: 4%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+
+.social-bar i{
+    color: grey;
+    font-size: 15px;
+    padding: 0 30px;
+}
+
+.social-bar i:hover{
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.banner{
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+}
+
+.banner h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.banner a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.banner a:hover{
+    text-decoration: underline;
+}
+
+.containerpicture h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.containerpicture h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.containerpicture h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.containerpicture h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 180px;
+}
+
+.containerpicture h5:hover,h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-centerpicture{
+    margin-top: 410px;
+}
+
+.xx-centerpicture img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.xx-centerpicture h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-top: -450px;
+}
+
+.xx-centerpicture h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.xx-centerpicture h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.xx-centerpicture h5:hover{
+    text-decoration: underline;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.xx-bottompicture{
+    margin-top: 322px;
+}
+
+.xx-bottompicture img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.xx-bottompicture h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-top: -470px;
+}
+
+.xx-bottompicture h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.xx-bottompicture h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.xx-bottompicture h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 180px;
+}
+
+.xx-bottompicture h5:hover,h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-png{
+    margin-top: 330px;
+}
+
+.xx-png img{
+    width: 50%;
+    float: left;
+    padding: 3px;
+}
+
+.xx-png img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-picture1{
+    position: absolute;
+    top: 270%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.xx-picture1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.xx-picture1 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.xx-picture1 h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.xx-picture1 h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 180px;
+}
+
+.xx-picture1 h5:hover,h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-picture2{
+    position: absolute;
+    top: 258%;
+    left: 61%;
+}
+
+.xx-picture2 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.xx-picture2 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.xx-picture2 h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.xx-picture2 h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 180px;
+}
+
+.xx-picture2 h5:hover,h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-picture3{
+    position: absolute;
+    top: 330%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.xx-picture3 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.xx-picture3 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.xx-picture3 h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.xx-picture3 h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 180px;
+}
+
+.xx-picture3 h5:hover,h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-picture4{
+    position: absolute;
+    top: 316%;
+    left: 61%;
+}
+
+.xx-picture4 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.xx-picture4 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.xx-picture4 h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.xx-picture4 h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 180px;
+}
+
+.xx-picture4 h5:hover,h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-picture5{
+    position: absolute;
+    top: 393%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.xx-picture5 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.xx-picture5 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.xx-picture5 h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.xx-picture5 h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 180px;
+}
+
+.xx-picture5 h5:hover,h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.xx-picture6{
+    position: absolute;
+    top: 378%;
+    left: 61%;
+}
+
+.xx-picture6 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.xx-picture6 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.xx-picture6 h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.xx-picture6 h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.x-footer{
+    position: absolute;
+    top: 445%;
+    width: 100%;
+    height: 45vh;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.xx-footer-1{
+    position: absolute;
+    top: 463%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+
+.xx-footer-1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.xx-footer-1 ul{
+    margin-top: 15px;
+}
+
+.xx-footer-1 ul li{
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.xx-footer-1 ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.xx-footer-1 ul li a:hover{
+    opacity: 1;
+    transition: all 0.4s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.xx-footer-2{
+    position: absolute;
+    top: 461%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.xx-footer-2 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.xx-footer-2 ul{
+    margin-top: 15px;
+}
+
+.xx-footer-2 ul li{
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.xx-footer-2 ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.xx-footer-2 ul li a:hover{
+    opacity: 1;
+    transition: all 0.4s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.xx-footer-3{
+    position: absolute;
+    top: 461%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.xx-footer-3 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.xx-footer-3 ul{
+    margin-top: 15px;
+}
+
+.xx-footer-3 ul li{
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.xx-footer-3 ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.xx-footer-3 ul li a:hover{
+    opacity: 1;
+    transition: all 0.4s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.xx-footer-4{
+    position: absolute;
+    top: 463.2%;
+    left: 68%;
+    transform: translate(-50%,-50%);
+}
+
+.xx-footer-4 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.xx-footer-4 ul{
+    margin-top: 15px;
+}
+
+.xx-footer-4 ul li{
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.xx-footer-4 ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.xx-footer-4 ul li a:hover{
+    opacity: 1;
+    transition: all 0.4s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#social-bar{
+    position: absolute;
+    top: 448.5%;
+    left: 80%;
+}
+
+#social-bar h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: lime;
+}
+
+#social-bar img{
+    width: 30px;
+    margin-top: 10px; 
+    cursor: pointer;
+}
